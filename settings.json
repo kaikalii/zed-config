@@ -8,13 +8,13 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "search": {
-    "case_sensitive": true
+    "case_sensitive": true,
   },
   "collaboration_panel": {
-    "button": false
+    "button": false,
   },
   "tab_bar": {
-    "show_pinned_tabs_in_separate_row": false
+    "show_pinned_tabs_in_separate_row": false,
   },
   "gutter": {
     "folds": false,
@@ -133,9 +133,6 @@
   "cursor_blink": true,
   "buffer_font_fallbacks": ["Uiua386", ".ZedMono"],
   "buffer_font_family": "Fira Code",
-  "buffer_font_features": {
-    "calt": true,
-  },
   "file_types": {
     "lua": ["*.luau"],
     "fsharp": ["*.fs"],
@@ -157,7 +154,11 @@
   "icon_theme": "Material Icon Theme",
   "ui_font_size": 18.0,
   "buffer_font_size": 17.0,
-  "theme": "Catppuccin Macchiato - No Italics",
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte - No Italics",
+    "dark": "Catppuccin Macchiato - No Italics",
+  },
   "lsp": {
     "uiua": {
       "enable_lsp_tasks": true,
