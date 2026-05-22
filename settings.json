@@ -1,0 +1,170 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "search": {
+    "case_sensitive": true
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false
+  },
+  "gutter": {
+    "folds": false,
+  },
+  "toolbar": {
+    "quick_actions": false,
+    "breadcrumbs": true,
+  },
+  "inlay_hints": {
+    "enabled": false,
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+  },
+  "drag_and_drop_selection": {
+    "enabled": false,
+  },
+  "ui_font_family": ".SystemUIFont",
+  "cli_default_open_behavior": "existing_window",
+  "use_system_window_tabs": false,
+  "centered_layout": {
+    "left_padding": 0.2,
+  },
+  "bottom_dock_layout": "contained",
+  "git": {
+    "inline_blame": {
+      "min_column": 100,
+      "show_commit_summary": true,
+      "enabled": true,
+    },
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "disable_ai": true,
+  "project_panel": {
+    "git_status_indicator": true,
+    "diagnostic_badges": true,
+    "bold_folder_labels": true,
+    "dock": "left",
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "terminal": {
+    "font_size": 17.0,
+    "font_family": "Uiua386",
+    "font_fallbacks": ["Fira Code", "DejaVu Sans Mono", ".ZedMono"],
+    "cursor_shape": "bar",
+    "blinking": "on",
+    "max_scroll_history_lines": 5000,
+  },
+  "global_lsp_settings": {
+    "semantic_token_rules": [
+      {
+        "token_type": "commandKeyword",
+        "token_modifiers": [],
+        "style": [],
+        "foreground_color": "#ffbfecff",
+        "background_color": null,
+        "underline": null,
+        "strikethrough": null,
+        "font_weight": null,
+        "font_style": null,
+      },
+      {
+        "token_type": "*.deprecated",
+        "token_modifiers": [],
+        "style": [],
+        "foreground_color": null,
+        "background_color": null,
+        "underline": null,
+        "strikethrough": true,
+        "font_weight": null,
+        "font_style": null,
+      },
+      {
+        "token_type": "*.commandStart",
+        "token_modifiers": [],
+        "style": [],
+        "foreground_color": null,
+        "background_color": null,
+        "underline": null,
+        "strikethrough": null,
+        "font_weight": "bold",
+        "font_style": null,
+      },
+      {
+        "token_type": "*.classCamel",
+        "token_modifiers": [],
+        "style": [],
+        "foreground_color": "#ffb300ff",
+        "background_color": null,
+        "underline": null,
+        "strikethrough": null,
+        "font_weight": null,
+        "font_style": null,
+      },
+    ],
+  },
+  "tabs": {
+    "git_status": true,
+    "file_icons": true,
+    "close_position": "left",
+  },
+  "multi_cursor_modifier": "cmd_or_ctrl",
+  "minimap": {
+    "show": "never",
+    "thumb": "always",
+  },
+  "cursor_blink": true,
+  "buffer_font_fallbacks": ["Uiua386", ".ZedMono"],
+  "buffer_font_family": "Fira Code",
+  "buffer_font_features": {
+    "calt": true,
+  },
+  "file_types": {
+    "lua": ["*.luau"],
+    "fsharp": ["*.fs"],
+    "llvm": ["*.s"],
+    "php": ["*.inc"],
+    "python": ["*.vg"],
+  },
+  "colorize_brackets": true,
+  "auto_indent_on_paste": true,
+  "use_on_type_format": true,
+  "show_edit_predictions": true,
+  "semantic_tokens": "combined",
+  "line_ending": "prefer_lf",
+  "indent_guides": {
+    "enabled": false,
+  },
+  "soft_wrap": "editor_width",
+  "base_keymap": "VSCode",
+  "icon_theme": "Material Icon Theme",
+  "ui_font_size": 18.0,
+  "buffer_font_size": 17.0,
+  "theme": "Catppuccin Macchiato - No Italics",
+  "lsp": {
+    "uiua": {
+      "enable_lsp_tasks": true,
+    },
+  },
+  "tasks": {
+    "enabled": true,
+    "prefer_lsp": true,
+  },
+}
